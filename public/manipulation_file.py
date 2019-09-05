@@ -1,0 +1,1 @@
+'''Neste script estao implementadas funcoes de manipulacao de arquivos'''
