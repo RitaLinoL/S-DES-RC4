@@ -14,7 +14,7 @@ def permutacao_inicial(S, T):
     j = 0
     for i in range (0, 256):
         j = ((j + S[i] + int(T[i]))% 256)
-                print(S[i], S[j])
+        print(S[i], S[j])
 
         S[i], S[j] = swap(S[i], S[j])
 
