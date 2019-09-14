@@ -1,6 +1,8 @@
 # S-DES-RC4
 Atividade Prática da disciplina de Segurança de Redes, ofertada pelo professor Silvio Sampaio na UFRN
 
+Alunas: Alice Soares Pereira de Barros e Rita de Cássia Lino Lopes
+
 1 - Implemente o algoritmo de criptografia S-DES apresentado em aula para cifrar/decifrar um
 arquivo texto passado por parâmetro em linha de comando
 
