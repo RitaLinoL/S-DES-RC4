@@ -1,6 +1,7 @@
-'''Neste script estao implementadas funcoes de manipulacao de strings, inteiros e binarios'''
+'''Neste script estao implementadas funcoes de manipulacao de strings, inteiros e binarios
 __version__:"1.0"
 __author__:"Alice Barros & Rita Lopes"
+'''
 
 
 def listInt_to_listBin(list_int):

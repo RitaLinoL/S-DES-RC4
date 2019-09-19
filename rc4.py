@@ -1,6 +1,7 @@
-'''Este modulo contem as funcoes relacionadas com o algoritmo de criptografia RC4'''
+'''Este modulo contem as funcoes relacionadas com o algoritmo de criptografia RC4
 __version__:"1.0"
 __author__:"Alice Barros & Rita Lopes"
+'''
 
 
 
