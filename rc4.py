@@ -87,13 +87,13 @@ def rc4(texto_entrada, chave):
   '''
 
   chave_int = string_to_listInt(chave) # conversão da chave de string para lista de inteiros
-
   S, T = inicializacao_vetor(chave_int) # chamada de função para inicialização de S e T a partir da chave
   S = permutacao_inicial(S,T) # permutação do vetor de estado
 
   texto_entrada_int = string_to_listInt(texto_entrada) # conversão do texto de string para uma lista de inteiros de acordo com a tabela ascii
 
   texto_saida_int = geracao_fluxo(texto_entrada_int, S) # chamada de função de geração de fluxo com o valor enviado pelo usuário e o vetor de estado gerado a partir da chave enviada pelo usuário
+
   texto_saida = listInt_to_string(texto_saida_int) # conversão do texto de lista de inteiros para string
 
   return texto_saida
